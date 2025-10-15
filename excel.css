@@ -29,7 +29,6 @@ span{
 .p2{
     margin: 5%;}
 .video1{
-    width: 50%;
     background-color: black;  
 }
 .p3{
@@ -74,7 +73,7 @@ button:hover{
     border-radius: 5%;  
     text-align: center;
     border: 1px solid;
-    width: 75%;
+    width: 85%;
     font-size: 1.2rem;
     padding: 5%; 
 }
@@ -86,7 +85,6 @@ button:hover{
 .section3{
     background-color: white;
     text-align: center;
-   
 }
 mark{
     background-color: white;
@@ -96,7 +94,6 @@ mark{
       float: right;
       letter-spacing: 5px;
       line-height: 4;
-    
      }
 .img2{
     width: 40%;
@@ -198,8 +195,7 @@ a:active{color: red;}
 @media screen and (min-width:679px) and (max-width:1023px)
 {
     body{
-        width: 100%;
-               
+        width: 100%;      
     }
     section{
     background-color: coral;
@@ -228,7 +224,6 @@ img{
     width: 100%;
     padding-bottom: 10%;
 }
-
 .img2{
    margin-right: 67%;
 }
@@ -251,13 +246,16 @@ img{
     background-color:rgb(241, 241, 124);
   }
   body{
-    font-size: 1.5rem;
+    font-size: 1.2rem;
   }
-div{
-    font-size: 2rem;}
+.p1{
+    font-size: 1.5rem;
+}
+span{
+     font-size: 7rem;
+}
 .video1{
-    width: 5%;
-  
+    width: 90%;
 }
 button{
     font-size: 1.3rem;  
@@ -272,7 +270,10 @@ button{
 .div1{
      background-color: rgb(66, 241, 241);
 }
-img{
+.div2{
+    width: 90%;
+}
+ img{
     width: 80%;
 }
 .img2{
@@ -303,6 +304,4 @@ h2{
 .mark2{
    background-color: rgb(243, 57, 228);
 }
-
-   
     }
